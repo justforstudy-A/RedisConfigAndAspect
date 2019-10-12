@@ -1,0 +1,640 @@
+2019-10-08 14:52:25.000 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 12712 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 14:52:25.004 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 14:52:25.666 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 14:52:25.669 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 14:52:25.697 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-10-08 14:52:26.258 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 14:52:26.274 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 14:52:26.295 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 14:52:26.295 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 14:52:26.509 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 14:52:26.510 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1464 ms
+2019-10-08 14:52:26.951 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 14:52:27.325 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 14:52:27.348 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 14:52:27.349 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 2.85 seconds (JVM running for 3.861)
+2019-10-08 14:52:45.052 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 14304 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 14:52:45.055 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 14:52:45.533 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 14:52:45.535 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 14:52:45.557 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-10-08 14:52:46.060 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 14:52:46.069 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 14:52:46.076 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 14:52:46.076 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 14:52:46.158 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 14:52:46.159 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1064 ms
+2019-10-08 14:52:46.632 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 14:52:46.926 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 14:52:46.947 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 14:52:46.949 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 2.217 seconds (JVM running for 2.864)
+2019-10-08 14:52:58.691 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 14:52:58.692 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 14:52:58.698 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-10-08 14:53:09.473 [http-nio-8888-exec-2] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 14:53:09.606 [http-nio-8888-exec-2] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-10-08 14:53:09.606 [http-nio-8888-exec-2] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-10-08 14:55:12.377 [http-nio-8888-exec-7] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 14:55:41.694 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 10412 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 14:55:41.696 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 14:55:42.174 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 14:55:42.176 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 14:55:42.197 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-10-08 14:55:42.670 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 14:55:42.681 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 14:55:42.688 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 14:55:42.689 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 14:55:42.776 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 14:55:42.776 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1048 ms
+2019-10-08 14:55:43.218 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 14:55:43.455 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 14:55:43.472 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 14:55:43.474 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 2.132 seconds (JVM running for 2.794)
+2019-10-08 14:55:52.835 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 14:55:52.836 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 14:55:52.838 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2019-10-08 14:55:52.860 [http-nio-8888-exec-1] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 14:55:52.946 [http-nio-8888-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-10-08 14:55:52.946 [http-nio-8888-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-10-08 15:01:22.162 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 9264 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 15:01:22.164 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 15:01:22.632 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 15:01:22.633 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 15:01:22.655 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-10-08 15:01:23.118 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 15:01:23.127 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:01:23.136 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 15:01:23.136 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 15:01:23.228 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 15:01:23.228 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1024 ms
+2019-10-08 15:01:23.674 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 15:01:23.931 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:01:23.948 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 15:01:23.950 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 2.116 seconds (JVM running for 2.783)
+2019-10-08 15:01:29.764 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 15:01:29.764 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 15:01:29.771 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-10-08 15:01:29.790 [http-nio-8888-exec-1] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:01:29.880 [http-nio-8888-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-10-08 15:01:29.881 [http-nio-8888-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-10-08 15:01:35.006 [http-nio-8888-exec-2] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:03:01.608 [http-nio-8888-exec-8] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:03:05.159 [http-nio-8888-exec-9] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:07:02.681 [http-nio-8888-exec-7] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:08:20.902 [http-nio-8888-exec-5] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:08:23.599 [http-nio-8888-exec-10] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:08:43.952 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 5056 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 15:08:43.955 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 15:08:44.432 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 15:08:44.435 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 15:08:44.456 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-10-08 15:08:44.919 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 15:08:44.928 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:08:44.936 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 15:08:44.936 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 15:08:45.023 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 15:08:45.024 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1028 ms
+2019-10-08 15:08:45.464 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 15:08:45.702 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:08:45.723 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 15:08:45.725 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 2.104 seconds (JVM running for 2.753)
+2019-10-08 15:08:49.919 [http-nio-8888-exec-6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 15:08:49.919 [http-nio-8888-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 15:08:49.926 [http-nio-8888-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-10-08 15:08:49.944 [http-nio-8888-exec-6] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:08:50.033 [http-nio-8888-exec-6] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-10-08 15:08:50.036 [http-nio-8888-exec-6] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-10-08 15:08:50.825 [http-nio-8888-exec-6] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----null
+2019-10-08 15:08:54.393 [http-nio-8888-exec-4] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:08:54.394 [http-nio-8888-exec-4] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----null
+2019-10-08 15:08:57.412 [http-nio-8888-exec-9] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:08:57.414 [http-nio-8888-exec-9] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----null
+2019-10-08 15:09:09.170 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 14896 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 15:09:09.173 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 15:09:09.692 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 15:09:09.694 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 15:09:09.718 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-10-08 15:09:10.242 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 15:09:10.254 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:09:10.260 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 15:09:10.261 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 15:09:10.353 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 15:09:10.353 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1121 ms
+2019-10-08 15:09:10.850 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 15:09:11.217 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:09:11.249 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 15:09:11.252 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 2.449 seconds (JVM running for 3.888)
+2019-10-08 15:09:24.349 [http-nio-8888-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 15:09:24.349 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 15:09:24.359 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2019-10-08 15:09:24.391 [http-nio-8888-exec-2] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:09:24.501 [http-nio-8888-exec-2] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-10-08 15:09:24.502 [http-nio-8888-exec-2] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-10-08 15:09:25.170 [http-nio-8888-exec-2] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----null
+2019-10-08 15:09:55.353 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 12680 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 15:09:55.355 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 15:09:55.801 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 15:09:55.803 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 15:09:55.827 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-10-08 15:09:56.333 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 15:09:56.344 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:09:56.350 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 15:09:56.351 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 15:09:56.437 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 15:09:56.437 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1020 ms
+2019-10-08 15:09:56.923 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 15:09:57.216 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:09:57.235 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 15:09:57.238 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 2.272 seconds (JVM running for 3.09)
+2019-10-08 15:10:02.159 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 15:10:02.159 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 15:10:02.167 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-10-08 15:10:02.190 [http-nio-8888-exec-1] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:10:02.289 [http-nio-8888-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-10-08 15:10:02.291 [http-nio-8888-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-10-08 15:10:12.839 [http-nio-8888-exec-1] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----null
+2019-10-08 15:10:55.379 [http-nio-8888-exec-2] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:10:55.382 [http-nio-8888-exec-2] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----null
+2019-10-08 15:11:01.086 [http-nio-8888-exec-5] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:11:01.087 [http-nio-8888-exec-5] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----null
+2019-10-08 15:11:44.201 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 9792 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 15:11:44.204 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 15:11:44.659 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 15:11:44.664 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 15:11:44.684 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-10-08 15:11:45.147 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 15:11:45.156 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:11:45.163 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 15:11:45.164 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 15:11:45.253 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 15:11:45.254 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1012 ms
+2019-10-08 15:11:45.677 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 15:11:45.922 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:11:45.940 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 15:11:45.942 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 2.062 seconds (JVM running for 2.715)
+2019-10-08 15:11:50.028 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 15:11:50.028 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 15:11:50.034 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-10-08 15:11:50.053 [http-nio-8888-exec-1] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:11:50.087 [http-nio-8888-exec-1] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----null
+2019-10-08 15:11:53.121 [http-nio-8888-exec-2] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:11:53.121 [http-nio-8888-exec-2] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----null
+2019-10-08 15:11:55.063 [http-nio-8888-exec-4] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:11:55.063 [http-nio-8888-exec-4] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----null
+2019-10-08 15:12:06.137 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 7188 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 15:12:06.141 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 15:12:06.616 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 15:12:06.619 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 15:12:06.644 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-10-08 15:12:07.171 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 15:12:07.182 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:12:07.188 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 15:12:07.189 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 15:12:07.320 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 15:12:07.321 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1108 ms
+2019-10-08 15:12:07.813 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 15:12:08.118 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:12:08.139 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 15:12:08.142 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 2.413 seconds (JVM running for 3.21)
+2019-10-08 15:12:14.403 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 15:12:14.404 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 15:12:14.411 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-10-08 15:12:14.433 [http-nio-8888-exec-1] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:12:14.473 [http-nio-8888-exec-1] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----null
+2019-10-08 15:12:38.552 [http-nio-8888-exec-3] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:12:38.553 [http-nio-8888-exec-3] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----null
+2019-10-08 15:12:44.427 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 14324 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 15:12:44.429 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 15:12:44.950 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 15:12:44.951 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 15:12:44.974 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-10-08 15:12:45.456 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 15:12:45.465 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:12:45.472 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 15:12:45.472 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 15:12:45.557 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 15:12:45.558 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1084 ms
+2019-10-08 15:12:45.984 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 15:12:46.208 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:12:46.227 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 15:12:46.229 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 2.142 seconds (JVM running for 2.805)
+2019-10-08 15:12:49.845 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 15:12:49.845 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 15:12:49.852 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-10-08 15:12:49.872 [http-nio-8888-exec-1] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:12:49.911 [http-nio-8888-exec-1] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----null
+2019-10-08 15:12:52.719 [http-nio-8888-exec-5] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:12:52.720 [http-nio-8888-exec-5] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----null
+2019-10-08 15:13:21.488 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 10720 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 15:13:21.490 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 15:13:21.950 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 15:13:21.955 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 15:13:21.976 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-10-08 15:13:22.412 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 15:13:22.424 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:13:22.432 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 15:13:22.432 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 15:13:22.517 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 15:13:22.517 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 989 ms
+2019-10-08 15:13:22.880 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 15:13:23.086 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:13:23.104 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 15:13:23.106 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 1.926 seconds (JVM running for 2.567)
+2019-10-08 15:13:26.844 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 15:13:26.845 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 15:13:26.849 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-10-08 15:13:53.363 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 12540 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 15:13:53.366 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 15:13:53.848 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 15:13:53.849 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 15:13:53.874 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-10-08 15:13:54.384 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 15:13:54.396 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:13:54.403 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 15:13:54.403 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 15:13:54.516 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 15:13:54.516 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1079 ms
+2019-10-08 15:13:54.919 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 15:13:55.159 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:13:55.180 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 15:13:55.183 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 2.218 seconds (JVM running for 2.991)
+2019-10-08 15:13:57.562 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 15:13:57.562 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 15:13:57.568 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-10-08 15:14:32.631 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 15204 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 15:14:32.634 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 15:14:33.158 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 15:14:33.160 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 15:14:33.183 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-10-08 15:14:33.556 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 15:14:33.565 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:14:33.571 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 15:14:33.572 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 15:14:33.661 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 15:14:33.661 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 988 ms
+2019-10-08 15:14:34.024 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 15:14:34.265 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:14:34.283 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 15:14:34.286 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 1.977 seconds (JVM running for 2.617)
+2019-10-08 15:14:37.430 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 15:14:37.430 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 15:14:37.435 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-10-08 15:15:03.134 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 15000 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 15:15:03.137 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 15:15:03.616 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 15:15:03.618 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 15:15:03.643 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-10-08 15:15:04.121 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 15:15:04.133 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:15:04.141 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 15:15:04.141 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 15:15:04.243 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 15:15:04.243 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1040 ms
+2019-10-08 15:15:04.683 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 15:15:04.915 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:15:04.936 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 15:15:04.939 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 2.206 seconds (JVM running for 3.002)
+2019-10-08 15:15:07.519 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 15:15:07.519 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 15:15:07.525 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-10-08 15:15:07.657 [http-nio-8888-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-10-08 15:15:07.658 [http-nio-8888-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-10-08 15:17:30.961 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 12252 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 15:17:30.963 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 15:17:31.445 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 15:17:31.447 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 15:17:31.471 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-10-08 15:17:31.918 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 15:17:31.930 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:17:31.937 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 15:17:31.937 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 15:17:32.024 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 15:17:32.024 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 996 ms
+2019-10-08 15:17:32.444 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 15:17:32.678 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:17:32.697 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 15:17:32.700 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 2.126 seconds (JVM running for 2.912)
+2019-10-08 15:17:38.619 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 15:17:38.619 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 15:17:38.626 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-10-08 15:17:38.755 [http-nio-8888-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-10-08 15:17:38.756 [http-nio-8888-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-10-08 15:21:28.947 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 6812 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 15:21:28.949 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 15:21:29.470 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 15:21:29.471 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 15:21:29.493 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-10-08 15:21:29.887 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 15:21:29.899 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:21:29.908 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 15:21:29.908 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 15:21:30.003 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 15:21:30.004 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1017 ms
+2019-10-08 15:21:30.370 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 15:21:30.556 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:21:30.574 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 15:21:30.575 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 1.975 seconds (JVM running for 2.654)
+2019-10-08 15:21:35.433 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 15:21:35.434 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 15:21:35.439 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-10-08 15:22:46.831 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 13368 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 15:22:46.833 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 15:22:47.321 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 15:22:47.322 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 15:22:47.348 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-10-08 15:22:47.818 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 15:22:47.830 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:22:47.838 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 15:22:47.838 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 15:22:47.958 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 15:22:47.959 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1081 ms
+2019-10-08 15:22:48.383 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 15:22:48.613 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:22:48.632 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 15:22:48.635 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 2.218 seconds (JVM running for 3.052)
+2019-10-08 15:22:52.262 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 15:22:52.262 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 15:22:52.268 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-10-08 15:22:52.384 [http-nio-8888-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-10-08 15:22:52.385 [http-nio-8888-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-10-08 15:24:16.519 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 2456 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 15:24:16.523 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 15:24:17.014 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 15:24:17.016 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 15:24:17.042 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-10-08 15:24:17.491 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 15:24:17.502 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:24:17.509 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 15:24:17.509 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 15:24:17.605 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 15:24:17.606 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1006 ms
+2019-10-08 15:24:18.043 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 15:24:18.327 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:24:18.349 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 15:24:18.351 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 2.248 seconds (JVM running for 3.045)
+2019-10-08 15:24:40.871 [http-nio-8888-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 15:24:40.871 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 15:24:40.879 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-10-08 15:24:41.149 [http-nio-8888-exec-2] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-10-08 15:24:41.152 [http-nio-8888-exec-2] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-10-08 15:25:52.614 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 5332 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 15:25:52.616 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 15:25:53.092 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 15:25:53.094 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 15:25:53.119 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-10-08 15:25:53.712 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 15:25:53.728 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:25:53.735 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 15:25:53.735 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 15:25:53.831 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 15:25:53.832 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1150 ms
+2019-10-08 15:25:54.326 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 15:25:54.602 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:25:54.620 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 15:25:54.622 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 2.41 seconds (JVM running for 3.186)
+2019-10-08 15:25:58.651 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 15:25:58.651 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 15:25:58.659 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-10-08 15:25:58.680 [http-nio-8888-exec-1] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:25:58.781 [http-nio-8888-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-10-08 15:25:58.783 [http-nio-8888-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-10-08 15:25:59.419 [http-nio-8888-exec-1] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----"0.9622885424836137"
+2019-10-08 15:26:08.050 [http-nio-8888-exec-4] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:26:08.051 [http-nio-8888-exec-4] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----"0.9622885424836137"
+2019-10-08 15:30:45.327 [http-nio-8888-exec-5] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:30:45.332 [http-nio-8888-exec-5] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----null
+2019-10-08 15:30:48.558 [http-nio-8888-exec-3] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:30:48.559 [http-nio-8888-exec-3] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----null
+2019-10-08 15:30:52.047 [http-nio-8888-exec-7] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:30:52.048 [http-nio-8888-exec-7] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----null
+2019-10-08 15:32:29.849 [http-nio-8888-exec-9] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:32:29.853 [http-nio-8888-exec-9] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----null
+2019-10-08 15:32:59.339 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 10048 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 15:32:59.343 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 15:32:59.811 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 15:32:59.813 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 15:32:59.839 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-10-08 15:33:00.437 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 15:33:00.452 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:33:00.460 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 15:33:00.460 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 15:33:00.556 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 15:33:00.556 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1148 ms
+2019-10-08 15:33:01.078 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 15:33:01.358 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:33:01.377 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 15:33:01.380 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 2.446 seconds (JVM running for 3.223)
+2019-10-08 15:33:13.280 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 15:33:13.280 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 15:33:13.288 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-10-08 15:33:13.321 [http-nio-8888-exec-1] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:33:13.483 [http-nio-8888-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-10-08 15:33:13.487 [http-nio-8888-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-10-08 15:33:14.828 [http-nio-8888-exec-1] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----null
+2019-10-08 15:38:28.959 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 12980 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 15:38:28.962 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 15:38:29.515 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 15:38:29.517 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 15:38:29.552 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+2019-10-08 15:38:30.107 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 15:38:30.118 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:38:30.125 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 15:38:30.125 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 15:38:30.225 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 15:38:30.225 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1198 ms
+2019-10-08 15:38:30.727 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 15:38:31.026 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:38:31.046 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 15:38:31.049 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 2.463 seconds (JVM running for 3.229)
+2019-10-08 15:38:39.876 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 15:38:39.876 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 15:38:39.884 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-10-08 15:38:39.950 [http-nio-8888-exec-1] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:38:40.051 [http-nio-8888-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-10-08 15:38:40.053 [http-nio-8888-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-10-08 15:38:40.765 [http-nio-8888-exec-1] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----null
+2019-10-08 15:38:44.106 [http-nio-8888-exec-2] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:38:44.110 [http-nio-8888-exec-2] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----null
+2019-10-08 15:39:17.838 [http-nio-8888-exec-4] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:39:17.841 [http-nio-8888-exec-4] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----null
+2019-10-08 15:49:12.162 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 13032 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 15:49:12.164 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 15:49:27.221 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 14228 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 15:49:27.224 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 15:50:13.833 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 13004 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 15:50:13.835 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 15:52:24.618 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 14916 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 15:52:24.621 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 15:58:11.381 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 10940 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 15:58:11.384 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 15:58:12.144 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 15:58:12.146 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 15:58:12.184 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+2019-10-08 15:58:12.888 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 15:58:12.901 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:58:12.909 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 15:58:12.910 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 15:58:13.028 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 15:58:13.028 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1561 ms
+2019-10-08 15:58:13.610 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 15:58:13.968 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 15:58:13.994 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 15:58:13.997 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 3.083 seconds (JVM running for 4.081)
+2019-10-08 15:58:18.234 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 15:58:18.235 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 15:58:18.243 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-10-08 15:58:18.276 [http-nio-8888-exec-1] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 15:58:18.378 [http-nio-8888-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-10-08 15:58:18.380 [http-nio-8888-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-10-08 15:58:19.034 [http-nio-8888-exec-1] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----null
+2019-10-08 16:03:54.296 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 3032 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 16:03:54.300 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 16:03:54.901 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 16:03:54.903 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 16:03:54.929 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-10-08 16:03:55.188 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.springboot.demo.configuration.RedisConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-08 16:03:55.545 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 16:03:55.559 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 16:03:55.568 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 16:03:55.569 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 16:03:55.671 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 16:03:55.671 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1310 ms
+2019-10-08 16:03:56.237 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 16:03:56.511 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 16:03:56.536 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 16:03:56.538 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 2.687 seconds (JVM running for 3.607)
+2019-10-08 16:04:06.773 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 16:04:06.773 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 16:04:06.787 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2019-10-08 16:04:06.835 [http-nio-8888-exec-1] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 16:04:06.931 [http-nio-8888-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-10-08 16:04:06.931 [http-nio-8888-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-10-08 16:05:27.411 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 8628 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 16:05:27.416 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 16:05:28.024 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 16:05:28.027 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 16:05:28.062 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2019-10-08 16:05:28.376 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.springboot.demo.configuration.RedisConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-08 16:05:28.787 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 16:05:28.802 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 16:05:28.811 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 16:05:28.811 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 16:05:28.973 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 16:05:28.973 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1463 ms
+2019-10-08 16:05:29.618 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 16:05:29.966 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 16:05:29.994 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 16:05:29.998 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 3.159 seconds (JVM running for 4.322)
+2019-10-08 16:05:32.935 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 16:05:32.936 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 16:05:32.947 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2019-10-08 16:05:32.999 [http-nio-8888-exec-1] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 16:05:33.116 [http-nio-8888-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-10-08 16:05:33.117 [http-nio-8888-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-10-08 16:06:26.690 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 14272 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 16:06:26.694 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 16:06:27.367 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 16:06:27.370 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 16:06:27.404 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2019-10-08 16:06:27.727 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.springboot.demo.configuration.RedisConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-08 16:06:28.185 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 16:06:28.200 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 16:06:28.209 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 16:06:28.209 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 16:06:28.347 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 16:06:28.348 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1592 ms
+2019-10-08 16:06:28.970 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 16:06:29.278 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 16:06:29.302 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 16:06:29.304 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 3.167 seconds (JVM running for 4.286)
+2019-10-08 16:06:32.179 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 16:06:32.180 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 16:06:32.191 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2019-10-08 16:06:32.239 [http-nio-8888-exec-1] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 16:06:32.357 [http-nio-8888-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-10-08 16:06:32.358 [http-nio-8888-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-10-08 16:06:33.254 [http-nio-8888-exec-1] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----null
+2019-10-08 16:06:42.237 [http-nio-8888-exec-3] INFO  com.springboot.demo.configuration.ControllerAspect - 调用方法2-----testCache
+2019-10-08 16:06:42.239 [http-nio-8888-exec-3] INFO  com.springboot.demo.configuration.ControllerAspect - 返回结果-----null
+2019-10-08 16:07:15.115 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 10660 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 16:07:15.119 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 16:07:15.793 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 16:07:15.796 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 16:07:15.831 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2019-10-08 16:07:16.149 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.springboot.demo.configuration.RedisConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-08 16:07:16.478 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 16:07:16.500 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 16:07:16.510 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 16:07:16.511 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 16:07:16.636 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 16:07:16.638 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1426 ms
+2019-10-08 16:07:17.174 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 16:07:17.427 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 16:07:17.453 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 16:07:17.455 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 2.893 seconds (JVM running for 3.981)
+2019-10-08 16:07:20.074 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 16:07:20.075 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 16:07:20.084 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2019-10-08 16:07:20.261 [http-nio-8888-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-10-08 16:07:20.263 [http-nio-8888-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-10-08 16:17:28.692 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 11548 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 16:17:28.697 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 16:17:29.413 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 16:17:29.415 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 16:17:29.449 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2019-10-08 16:17:29.744 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.springboot.demo.configuration.RedisConfig$$EnhancerBySpringCGLIB$$ef80f968] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-08 16:17:30.024 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 16:17:30.036 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 16:17:30.044 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 16:17:30.044 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 16:17:30.159 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 16:17:30.159 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1355 ms
+2019-10-08 16:17:30.655 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 16:17:30.922 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 16:17:30.947 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 16:17:30.950 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 2.812 seconds (JVM running for 3.877)
+2019-10-08 16:17:38.159 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 16:17:38.159 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 16:17:38.170 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2019-10-08 16:17:43.417 [http-nio-8888-exec-2] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-10-08 16:17:43.417 [http-nio-8888-exec-2] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-10-08 16:18:37.182 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 14180 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 16:18:37.184 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 16:18:37.778 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 16:18:37.780 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 16:18:37.809 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2019-10-08 16:18:38.053 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.springboot.demo.configuration.RedisConfig$$EnhancerBySpringCGLIB$$a80b16e3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-08 16:18:38.287 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 16:18:38.298 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 16:18:38.307 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 16:18:38.307 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 16:18:38.420 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 16:18:38.420 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1182 ms
+2019-10-08 16:18:38.943 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 16:18:39.222 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 16:18:39.243 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 16:18:39.245 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 2.487 seconds (JVM running for 3.376)
+2019-10-08 16:18:43.082 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 16:18:43.084 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 16:18:43.091 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-10-08 16:23:28.545 [main] INFO  com.springboot.demo.DemoApplication - Starting DemoApplication on DESKTOP-I47RA22 with PID 13992 (started by 周升升 in D:\software\Intelij Idea\IdeaDemos\SpringBootDemo)
+2019-10-08 16:23:28.548 [main] INFO  com.springboot.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-10-08 16:23:29.215 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 16:23:29.219 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-08 16:23:29.275 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 repository interfaces.
+2019-10-08 16:23:29.624 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.springboot.demo.configuration.RedisConfig$$EnhancerBySpringCGLIB$$60b8a5d3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-08 16:23:29.908 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-10-08 16:23:29.923 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-10-08 16:23:29.932 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 16:23:29.932 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-08 16:23:30.040 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 16:23:30.040 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1401 ms
+2019-10-08 16:23:30.580 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 16:23:30.836 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-10-08 16:23:30.862 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-08 16:23:30.866 [main] INFO  com.springboot.demo.DemoApplication - Started DemoApplication in 2.88 seconds (JVM running for 4.059)
+2019-10-08 16:23:36.068 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-08 16:23:36.069 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-10-08 16:23:36.081 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2019-10-08 16:23:36.278 [http-nio-8888-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-10-08 16:23:36.281 [http-nio-8888-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
