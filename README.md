@@ -1,0 +1,3 @@
+简单整合redis和springboot  注解配置
+
+运用切面设置redis的注解的过期时间
